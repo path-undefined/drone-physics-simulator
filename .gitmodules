@@ -1,0 +1,3 @@
+[submodule "server/drone-flight-controller"]
+	path = server/drone-flight-controller
+	url = git@github.com:path-undefined/drone-flight-controller.git
