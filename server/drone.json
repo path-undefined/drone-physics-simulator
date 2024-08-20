@@ -1,0 +1,210 @@
+{
+  "bodyParts": [
+    {
+      "name": "body",
+      "type": "cube",
+      "dimension": [
+        30, 200, 30
+      ],
+      "position": [
+        0, -10, 0
+      ],
+      "rotation": [
+        0, 0, 0
+      ],
+      "weight": 500
+    },
+    {
+      "name": "camera",
+      "type": "cube",
+      "dimension": [
+        72, 34, 50
+      ],
+      "position": [
+        0, 75, 0
+      ],
+      "rotation": [
+        0.523599, 0, 0
+      ],
+      "weight": 200
+    },
+    {
+      "name": "arm-fr",
+      "type": "stick",
+      "dimension": [
+        100, 0, 0
+      ],
+      "position": [
+        35, 35, 0
+      ],
+      "rotation": [
+        0, 0, 0.785398
+      ],
+      "weight": 10
+    },
+    {
+      "name": "arm-fl",
+      "type": "stick",
+      "dimension": [
+        100, 0, 0
+      ],
+      "position": [
+        -35, 35, 0
+      ],
+      "rotation": [
+        0, 0, -0.785398
+      ],
+      "weight": 10
+    },
+    {
+      "name": "arm-rr",
+      "type": "stick",
+      "dimension": [
+        100, 0, 0
+      ],
+      "position": [
+        35, -35, 0
+      ],
+      "rotation": [
+        0, 0, -0.785398
+      ],
+      "weight": 10
+    },
+    {
+      "name": "arm-rl",
+      "type": "stick",
+      "dimension": [
+        100, 0, 0
+      ],
+      "position": [
+        -35, -35, 0
+      ],
+      "rotation": [
+        0, 0, 0.785398
+      ],
+      "weight": 10
+    },
+    {
+      "name": "motor-fr",
+      "type": "point",
+      "dimension": [
+        0, 0, 0
+      ],
+      "position": [
+        71, 71, 0
+      ],
+      "rotation": [
+        0, 0, 0
+      ],
+      "weight": 40
+    },
+    {
+      "name": "motor-fl",
+      "type": "point",
+      "dimension": [
+        0, 0, 0
+      ],
+      "position": [
+        -71, 71, 0
+      ],
+      "rotation": [
+        0, 0, 0
+      ],
+      "weight": 40
+    },
+    {
+      "name": "motor-rr",
+      "type": "point",
+      "dimension": [
+        0, 0, 0
+      ],
+      "position": [
+        71, -71, 0
+      ],
+      "rotation": [
+        0, 0, 0
+      ],
+      "weight": 40
+    },
+    {
+      "name": "motor-rl",
+      "type": "point",
+      "dimension": [
+        0, 0, 0
+      ],
+      "position": [
+        -71, -71, 0
+      ],
+      "rotation": [
+        0, 0, 0
+      ],
+      "weight": 40
+    }
+  ],
+  "motors": [
+    {
+      "name": "motor-fr",
+      "direction": "ccw",
+      "position": [
+        71, 71, 0
+      ],
+      "reactSpeed": 0.03,
+      "performance": [
+        { "throttle": 0, "thrust": 0, "torque": 0 },
+        { "throttle": 20, "thrust": 23, "torque": 0.0042551704},
+        { "throttle": 40, "thrust": 91, "torque": 0.0171674312 },
+        { "throttle": 60, "thrust": 204, "torque": 0.0386390369 },
+        { "throttle": 80, "thrust": 362, "torque": 0.0687064014 },
+        { "throttle": 100, "thrust": 566, "torque": 0.1073771356 }
+      ]
+    },
+    {
+      "name": "motor-fl",
+      "direction": "cw",
+      "position": [
+        -71, 71, 0
+      ],
+      "reactSpeed": 0.03,
+      "performance": [
+        { "throttle": 0, "thrust": 0, "torque": 0 },
+        { "throttle": 20, "thrust": 23, "torque": 0.0042551704},
+        { "throttle": 40, "thrust": 91, "torque": 0.0171674312 },
+        { "throttle": 60, "thrust": 204, "torque": 0.0386390369 },
+        { "throttle": 80, "thrust": 362, "torque": 0.0687064014 },
+        { "throttle": 100, "thrust": 566, "torque": 0.1073771356 }
+      ]
+    },
+    {
+      "name": "motor-rl",
+      "direction": "cw",
+      "position": [
+        71, -71, 0
+      ],
+      "reactSpeed": 0.03,
+      "performance": [
+        { "throttle": 0, "thrust": 0, "torque": 0 },
+        { "throttle": 20, "thrust": 23, "torque": 0.0042551704},
+        { "throttle": 40, "thrust": 91, "torque": 0.0171674312 },
+        { "throttle": 60, "thrust": 204, "torque": 0.0386390369 },
+        { "throttle": 80, "thrust": 362, "torque": 0.0687064014 },
+        { "throttle": 100, "thrust": 566, "torque": 0.1073771356 }
+      ]
+    },
+    {
+      "name": "motor-rr",
+      "direction": "ccw",
+      "position": [
+        -71, -71, 0
+      ],
+      "reactSpeed": 0.03,
+      "performance": [
+        { "throttle": 0, "thrust": 0, "torque": 0 },
+        { "throttle": 20, "thrust": 23, "torque": 0.0042551704},
+        { "throttle": 40, "thrust": 91, "torque": 0.0171674312 },
+        { "throttle": 60, "thrust": 204, "torque": 0.0386390369 },
+        { "throttle": 80, "thrust": 362, "torque": 0.0687064014 },
+        { "throttle": 100, "thrust": 566, "torque": 0.1073771356 }
+      ]
+    }
+  ]
+}
